@@ -1,0 +1,8 @@
+pip install gradio
+pip install fitz
+pip install PyMuPDF
+pip install langchain-community
+pip install transformers
+pip install langchain-chroma
+pip install langchain_ollama
+pip install langchain-ollama chromadb pillow transformers torch
