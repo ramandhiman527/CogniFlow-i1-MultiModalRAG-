@@ -72,7 +72,7 @@ def query_rag(query_text: str):
     # Step 9: Use Ollama model for generating a response
     model = OllamaLLM(model="phi3.5")
     response_text = model.invoke(prompt)
-    
+
     # Prepare the final response with detailed source information
     data = {
         "query_text": query_text,
